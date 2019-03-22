@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-webcomputing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A TSLint configuration which will be used by all public typescript project from the web computing. ",
   "main": "tslint-base.json",
   "peerDependencies": {
