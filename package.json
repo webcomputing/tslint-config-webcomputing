@@ -1,0 +1,25 @@
+{
+  "name": "tslint-config-webcomputing",
+  "version": "0.0.1",
+  "description": "A TSLint configuration which will be used by all public typescript project from the web computing. ",
+  "main": "tslint-base.json",
+  "peerDependencies": {
+    "tslint": "^5.11.0"
+  },
+  "keywords": [
+    "web computing",
+    "tslint",
+    "typescript",
+    "AssistantJS"
+  ],
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "author": "Thorsten Woywod<tw@web-computing.de>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^3.3.4000"
+  }
+}
