@@ -19,7 +19,7 @@
       true,
       {
         "static-method-regex": "^[a-z][\\w\\d]+$",
-        "function-regex": "^([a-z][\\w\\d]+)|(([A-Z][\\w\\d]+)Mixin)$"
+        "function-regex": "^([a-z][\\w\\d]+)|(\\[[a-z][\\w\\d]+\\])|(([A-Z][\\w\\d]+)Mixin)$"
       }
     ],
     "member-ordering": [
