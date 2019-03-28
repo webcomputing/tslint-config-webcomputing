@@ -16,6 +16,7 @@
     "component-selector": [true, "element", "app", "kebab-case"],
     "no-submodule-imports": [
       true,
+      "rxjs",
       "@angular/platform-browser-dynamic",
       "@angular/core/testing"
     ]
