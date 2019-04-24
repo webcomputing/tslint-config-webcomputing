@@ -7,6 +7,16 @@
   "rules": {
     "no-floating-promises": true,
     "no-unused-expression": true,
+    "strict-boolean-expressions": [
+      true,
+      "allow-null-union",
+      "allow-undefined-union",
+      "allow-string",
+      "allow-enum",
+      "allow-number",
+      "allow-mix",
+      "ignore-rhs"
+    ],
     "interface-name": [true, "never-prefix"],
     "only-arrow-functions": false,
     "object-shorthand-properties-first": true,
@@ -19,7 +29,7 @@
       true,
       {
         "static-method-regex": "^[a-z][\\w\\d]+$",
-        "function-regex": "^([a-z][\\w\\d]+)|(([A-Z][\\w\\d]+)Mixin)$"
+        "function-regex": "^([a-z][\\w\\d]+)|(\\[[a-z][\\w\\d]+\\])|(([A-Z][\\w\\d]+)Mixin)$"
       }
     ],
     "member-ordering": [
