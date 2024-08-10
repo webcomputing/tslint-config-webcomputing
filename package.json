@@ -13,8 +13,8 @@
     "AssistantJS"
   ],
   "dependencies": {
-    "@angular/compiler": "^7.2.11",
-    "@angular/core": "^7.2.11",
+    "@angular/compiler": "^7.2.16",
+    "@angular/core": "^7.2.16",
     "codelyzer": "~4.5.0",
     "rxjs": "^6.4.0",
     "tslint": "^5.11.0",
